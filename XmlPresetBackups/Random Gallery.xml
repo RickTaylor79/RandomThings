@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="Random Gallery" Bypassed="0" Gain="1.0"
+           Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0"
+           packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptComboBox" id="ComboBox1" value="5.0"/>
+            <Control type="ScriptComboBox" id="ComboBox2" value="4"/>
+            <Control type="ScriptComboBox" id="ComboBox3" value="6"/>
+            <Control type="ScriptButton" id="random2" value="0.0"/>
+            <Control type="ScriptButton" id="random3" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob1" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob2" value="-61.0"/>
+            <Control type="ScriptSlider" id="Knob3" value="0.7270199060440063"/>
+            <Control type="ScriptSlider" id="Knob4" value="-23.0"/>
+            <Control type="ScriptSlider" id="Knob5" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob6" value="-86.0"/>
+            <Control type="ScriptButton" id="Lock1" value="0.0"/>
+            <Control type="ScriptButton" id="Lock2" value="0.0"/>
+            <Control type="ScriptButton" id="Lock3" value="0.0"/>
+            <Control type="ScriptButton" id="Lock4" value="0.0"/>
+            <Control type="ScriptButton" id="Lock5" value="0.0"/>
+            <Control type="ScriptButton" id="Lock6" value="0.0"/>
+            <Control type="ScriptButton" id="Lock7" value="0.0"/>
+            <Control type="ScriptButton" id="Lock8" value="1.0"/>
+            <Control type="ScriptButton" id="Lock9" value="0.0"/>
+            <Control type="ScriptButton" id="Lock10" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob9" value="30.0"/>
+            <Control type="ScriptSlider" id="Min" value="24.0"/>
+            <Control type="ScriptSlider" id="Mix" value="50.0"/>
+            <Control type="ScriptSlider" id="Knob10" value="0.0"/>
+            <Control type="ScriptSlider" id="Min1" value="0.0"/>
+            <Control type="ScriptSlider" id="Mix1" value="0.0"/>
+            <Control type="ScriptButton" id="RandomAll" value="0.0"/>
+          </Content>
+          <UIData Source="Random GalleryUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

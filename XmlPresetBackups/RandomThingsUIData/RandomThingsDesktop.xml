@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="ScriptPanel1" x="0.0" y="-2.0" width="680.0"
+             height="802.0" itemColour="4293255125" itemColour2="4292861395"
+             borderRadius="0.0" locked="1">
+    <Component type="ScriptPanel" id="Panel1" x="24.0" y="47.0" parentComponent="ScriptPanel1"
+               width="630.0" height="370.0" itemColour="0" itemColour2="0" textColour="4278190080">
+      <Component type="ScriptComboBox" id="Menu1" x="54.0" y="91.0" max="5" items="1&#10;2&#10;3&#10;4&#10;5"
+                 bgColour="4278190080" itemColour="1778384895" itemColour2="1861481459"
+                 parentComponent="Panel1" textColour="4278190080" fontName="Source Code Pro"
+                 fontSize="16.0" fontStyle="Bold" height="50.0"/>
+      <Component type="ScriptComboBox" id="Menu2" x="241.0" y="91.0" max="6" items="dog&#10;cat&#10;book&#10;car&#10;bat&#10;plant"
+                 bgColour="4278190080" itemColour="1778384895" itemColour2="1861481459"
+                 parentComponent="Panel1" textColour="4278190080" fontName="Source Code Pro"
+                 fontSize="16.0" fontStyle="Bold" height="50.0"/>
+      <Component type="ScriptComboBox" id="Menu3" x="422.0" y="91.0" max="12"
+                 width="120.0" height="50.0" items="a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;g&#10;h&#10;i&#10;j&#10;k&#10;l"
+                 bgColour="4278190080" itemColour="1778384895" itemColour2="1861481459"
+                 parentComponent="Panel1" textColour="4278190080" fontName="Source Code Pro"
+                 fontSize="16.0" fontStyle="Bold"/>
+      <Component type="ScriptButton" id="random1" x="99.0" y="276.0" width="40.0"
+                 height="40.0" isMomentary="1" saveInPreset="0" textColour="4278190080"
+                 bgColour="4294901760" itemColour="4294901760" parentComponent="Panel1"
+                 text=""/>
+      <Component type="ScriptButton" id="random2" x="285.0" y="276.0" width="40.0"
+                 height="40.0" isMomentary="1" textColour="4278190080" bgColour="4294901760"
+                 itemColour="4294901760" parentComponent="Panel1" text=""/>
+      <Component type="ScriptButton" id="random3" x="472.0" y="276.0" width="40.0"
+                 height="40.0" isMomentary="1" textColour="4278190080" bgColour="4294901760"
+                 itemColour="4294901760" parentComponent="Panel1" text=""/>
+      <Component type="ScriptSlider" id="Knob1" x="52.0" y="150.0" width="130.0"
+                 height="50.0" min="1.0" max="4.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" parentComponent="Panel1"/>
+      <Component type="ScriptSlider" id="Knob2" x="52.0" y="210.0" width="130.0"
+                 height="50.0" mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"
+                 suffix=" dB" middlePosition="-18.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" parentComponent="Panel1"/>
+      <Component type="ScriptSlider" id="Knob3" x="235.0" y="150.0" width="130.0"
+                 height="50.0" middlePosition="0.5" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" parentComponent="Panel1"/>
+      <Component type="ScriptSlider" id="Knob4" x="235.0" y="210.0" width="130.0"
+                 height="50.0" mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"
+                 suffix=" dB" middlePosition="-18.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" parentComponent="Panel1"/>
+      <Component type="ScriptSlider" id="Knob5" x="412.0" y="150.0" width="130.0"
+                 height="50.0" min="1.0" max="5.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" parentComponent="Panel1"/>
+      <Component type="ScriptSlider" id="Knob6" x="412.0" y="210.0" width="130.0"
+                 height="50.0" mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"
+                 suffix=" dB" middlePosition="-18.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock1" x="193.0" y="106.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock2" x="193.0" y="159.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock3" x="193.0" y="219.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock4" x="375.0" y="106.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock5" x="376.0" y="159.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock6" x="375.0" y="219.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock7" x="553.0" y="117.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock8" x="553.0" y="170.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptButton" id="Lock9" x="554.0" y="230.0" width="20.0"
+                 height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                 textColour="4278255417" parentComponent="Panel1"/>
+      <Component type="ScriptLabel" id="RANDOM ALL1" x="68.0" y="329.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="100.0" height="40.0" fontSize="15.0"
+                 text="RANDOM" parentComponent="Panel1" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL2" x="256.0" y="329.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="100.0" height="40.0" fontSize="15.0"
+                 text="RANDOM" parentComponent="Panel1" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL3" x="447.0" y="329.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="100.0" height="40.0" fontSize="15.0"
+                 text="RANDOM" parentComponent="Panel1" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL4" x="73.0" y="53.0" textColour="4278190080"
+                 fontName="DIN Alternate" width="100.0" height="40.0" fontSize="20.0"
+                 text="1" parentComponent="Panel1" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL5" x="254.0" y="53.0" textColour="4278190080"
+                 fontName="DIN Alternate" width="100.0" height="40.0" fontSize="20.0"
+                 text="2" parentComponent="Panel1" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL6" x="432.0" y="53.0" textColour="4278190080"
+                 fontName="DIN Alternate" width="100.0" height="40.0" fontSize="20.0"
+                 text="3" parentComponent="Panel1" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL7" x="536.0" y="11.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="80.0" height="40.0" fontSize="15.0"
+                 text="= LOCK" itemColour="4278190080" alignment="right" parentComponent="Panel1"
+                 fontStyle="Bold" editable="0">
+        <Component type="ScriptButton" id="Lock10" x="5.0" y="12.0" width="20.0"
+                   height="20.0" bgColour="1426128697" itemColour="4278255417" itemColour2="4278255417"
+                   textColour="4278255417" enabled="0" parentComponent="RANDOM ALL7"/>
+      </Component>
+      <Component type="ScriptLabel" id="RANDOM ALL9" x="10.0" y="10.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="240.0" height="40.0" fontSize="25.0"
+                 text="RANDOM WITH LOCK" parentComponent="Panel1" alignment="left"
+                 fontStyle="Bold" editable="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="Panel2" x="24.0" y="432.0" parentComponent="ScriptPanel1"
+               width="300.0" height="190.0" itemColour="0" itemColour2="0" textColour="4278190080">
+      <Component type="ScriptSlider" id="Knob9" x="18.0" y="53.0" style="Horizontal"
+                 width="200.0" height="60.0" itemColour="1761567587" textColour="4294901760"
+                 itemColour2="4294901760" max="100.0" middlePosition="50.0" stepSize="1.0"
+                 parentComponent="Panel2" bgColour="2449473535"/>
+      <Component type="ScriptButton" id="random4" x="228.0" y="57.0" width="40.0"
+                 height="40.0" isMomentary="1" saveInPreset="0" textColour="4278190080"
+                 bgColour="4294901760" itemColour="4294901760" parentComponent="Panel2"
+                 text=""/>
+      <Component type="ScriptSlider" id="Min" x="13.0" y="129.0" max="100.0" middlePosition="50.0"
+                 stepSize="1.0" bgColour="4211081216" textColour="4294901760"
+                 itemColour2="4211081216" itemColour="4211081216" width="130.0"
+                 height="50.0" parentComponent="Panel2"/>
+      <Component type="ScriptSlider" id="Mix" x="153.0" y="129.0" max="100.0"
+                 middlePosition="50.0" stepSize="1.0" bgColour="4211081216" textColour="4294901760"
+                 itemColour2="4211081216" itemColour="4211081216" text="Max" width="130.0"
+                 height="50.0" parentComponent="Panel2"/>
+      <Component type="ScriptLabel" id="RANDOM ALL8" x="215.0" y="101.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="70.0" height="20.0" fontSize="15.0"
+                 text="RANDOM" parentComponent="Panel2" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL10" x="16.0" y="9.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="260.0" height="30.0" fontSize="25.0"
+                 text="RANDOMISE IN RANGE" parentComponent="Panel2" fontStyle="Bold"
+                 editable="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="Panel3" x="351.0" y="433.0" parentComponent="ScriptPanel1"
+               width="300.0" height="160.0" itemColour="0" itemColour2="0" textColour="4278190080">
+      <Component type="ScriptButton" id="random5" x="236.0" y="39.0" width="40.0"
+                 height="40.0" isMomentary="1" saveInPreset="0" textColour="4278190080"
+                 bgColour="4294901760" itemColour="4294901760" parentComponent="Panel3"
+                 text=""/>
+      <Component type="ScriptSlider" id="Min1" x="20.0" y="7.0" max="100.0" middlePosition="50.0"
+                 stepSize="1.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" width="130.0"
+                 height="50.0" parentComponent="Panel3" visible="0"/>
+      <Component type="ScriptSlider" id="Mix1" x="150.0" y="-13.0" max="100.0"
+                 middlePosition="50.0" stepSize="1.0" bgColour="1426063360" textColour="4294901760"
+                 itemColour2="4280301299" itemColour="4280301299" text="Max" width="130.0"
+                 height="50.0" parentComponent="Panel3" visible="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL11" x="221.0" y="86.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="70.0" height="20.0" fontSize="15.0"
+                 text="RANDOM" parentComponent="Panel3" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL12" x="23.0" y="7.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="260.0" height="30.0" fontSize="25.0"
+                 text="COIN TOSS" parentComponent="Panel3" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptComboBox" id="Menu4" x="20.0" y="101.0" width="90.0"
+                 height="30.0" max="8" parentComponent="Panel3" items="Kick&#10;Snare&#10;Clap&#10;Cymbal&#10;OHH&#10;CC&#10;Perc 1&#10;Perc 2"
+                 bgColour="4211081216" itemColour="4211081216" itemColour2="4211081216"/>
+      <Component type="ScriptComboBox" id="Menu5" x="126.0" y="101.0" width="90.0"
+                 height="30.0" max="8" parentComponent="Panel3" items="Kick&#10;Snare&#10;Clap&#10;Cymbal&#10;OHH&#10;CC&#10;Perc 1&#10;Perc 2"
+                 bgColour="4211081216" itemColour="4211081216" itemColour2="4211081216"/>
+      <Component type="ScriptComboBox" id="Menu6" x="20.0" y="39.0" width="200.0"
+                 height="50.0" max="8" parentComponent="Panel3" items="Kick&#10;Snare&#10;Clap&#10;Cymbal&#10;OHH&#10;CC&#10;Perc 1&#10;Perc 2"
+                 bgColour="4278190080" itemColour="4294967295" itemColour2="4294177779"
+                 textColour="4278190080" fontName="Source Code Pro" fontSize="16.0"
+                 fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="RANDOM ALL13" x="26.0" y="136.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="70.0" height="20.0" fontSize="15.0"
+                 text="STATE 1" parentComponent="Panel3" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL14" x="137.0" y="137.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="70.0" height="20.0" fontSize="15.0"
+                 text="STATE 2" parentComponent="Panel3" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptSlider" id="GetValueButton" x="210.0" y="107.0" width="80.0"
+                 height="60.0" parentComponent="Panel3" middlePosition="2.0" min="1.0"
+                 max="3.0" visible="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="Panel4" x="24.0" y="630.0" parentComponent="ScriptPanel1"
+               width="300.0" height="160.0" itemColour="0" itemColour2="0" textColour="4278190080">
+      <Component type="ScriptButton" id="random6" x="169.0" y="104.0" width="40.0"
+                 height="40.0" saveInPreset="0" textColour="4278190080" bgColour="4294901760"
+                 itemColour="4294901760" parentComponent="Panel4" isMomentary="1"
+                 text=""/>
+      <Component type="ScriptSlider" id="ValueSlider1" x="19.0" y="102.0" middlePosition="0.5"
+                 textColour="4294901760" itemColour2="4294901760" itemColour="1761567587"
+                 width="140.0" height="40.0" parentComponent="Panel4" style="Horizontal"
+                 bgColour="2449473535"/>
+      <Component type="ScriptLabel" id="RANDOM ALL15" x="218.0" y="114.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="70.0" height="20.0" fontSize="15.0"
+                 text="RANDOM" parentComponent="Panel4" fontStyle="Bold" editable="0"/>
+      <Component type="ScriptLabel" id="RANDOM ALL16" x="-5.0" y="8.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="300.0" height="30.0" fontSize="25.0"
+                 text="RANDOMISE ON TRIGGER" parentComponent="Panel4" fontStyle="Bold"
+                 editable="0"/>
+      <Component type="ScriptSlider" id="ScriptSlider1" x="19.0" y="42.0" width="140.0"
+                 height="50.0" parentComponent="Panel4" processorId="Script Time Variant Modulator1"
+                 parameterId="tempo" mode="TempoSync" max="18.0" stepSize="1.0"
+                 middlePosition="9.0" text="Tempo" bgColour="4211081216" itemColour="4211081216"
+                 textColour="4294901760" itemColour2="4211081216"/>
+      <Component type="ScriptButton" id="trig1" x="168.0" y="50.0" width="40.0"
+                 height="40.0" saveInPreset="0" textColour="4278190080" bgColour="4278212863"
+                 itemColour="4278212863" parentComponent="Panel4" processorId="Script Time Variant Modulator1"
+                 parameterId="Enabled" text=""/>
+      <Component type="ScriptLabel" id="RANDOM ALL17" x="220.0" y="50.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="50.0" height="40.0" fontSize="15.0"
+                 text="TRIG ON/OFF" parentComponent="Panel4" fontStyle="Bold"
+                 editable="0"/>
+      <Component type="ScriptButton" id="trig3" x="280.0" y="2.0" width="20.0"
+                 height="20.0" saveInPreset="0" textColour="4278190080" bgColour="1761567587"
+                 itemColour="1761567587" parentComponent="Panel4" text=""/>
+    </Component>
+    <Component type="ScriptPanel" id="Panel5" x="350.0" y="602.0" parentComponent="ScriptPanel1"
+               width="300.0" height="190.0" itemColour="0" itemColour2="0" textColour="4278190080">
+      <Component type="ScriptSlider" id="ValueSlider2" x="11.0" y="139.0" middlePosition="0.5"
+                 textColour="4294901760" itemColour2="4294901760" itemColour="1761567587"
+                 width="90.0" height="40.0" parentComponent="Panel5" style="Horizontal"
+                 bgColour="2449473535"/>
+      <Component type="ScriptLabel" id="RANDOM ALL19" x="-2.0" y="8.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="300.0" height="30.0" fontSize="25.0"
+                 text="RAND TRIG W. OFFSET" parentComponent="Panel5" fontStyle="Bold"
+                 editable="0"/>
+      <Component type="ScriptSlider" id="ScriptSlider2" x="16.0" y="39.0" width="140.0"
+                 height="50.0" parentComponent="Panel5" processorId="Script Time Variant Modulator2"
+                 parameterId="Tempo" mode="TempoSync" max="18.0" stepSize="1.0"
+                 middlePosition="9.0" text="Tempo" bgColour="4211081216" itemColour="4211081216"
+                 textColour="4294901760" itemColour2="4211081216"/>
+      <Component type="ScriptSlider" id="ScriptSlider3" x="20.0" y="90.0" width="130.0"
+                 height="40.0" parentComponent="Panel5" text="Amount" processorId="Script Time Variant Modulator2"
+                 parameterId="Amount" itemColour2="4211081216" itemColour="4211081216"
+                 bgColour="4211081216" min="-1.0" middlePosition="0.0"/>
+      <Component type="ScriptSlider" id="ScriptSlider4" x="160.0" y="41.0" width="130.0"
+                 height="40.0" parentComponent="Panel5" text="Offset" processorId="Script Time Variant Modulator2"
+                 parameterId="Offset" itemColour2="4211081216" itemColour="4211081216"
+                 bgColour="4211081216"/>
+      <Component type="ScriptLabel" id="RANDOM ALL18" x="230.0" y="90.0" textColour="4278190080"
+                 fontName="Source Code Pro" width="50.0" height="40.0" fontSize="15.0"
+                 text="TRIG ON/OFF" parentComponent="Panel5" fontStyle="Bold"
+                 editable="0"/>
+      <Component type="ScriptButton" id="trig2" x="178.0" y="90.0" width="40.0"
+                 height="40.0" saveInPreset="0" textColour="4278190080" bgColour="4278212863"
+                 itemColour="4278212863" parentComponent="Panel5" processorId="Script Time Variant Modulator2"
+                 parameterId="Enabled" text=""/>
+      <Component type="ScriptComboBox" id="ScriptComboBox1" x="107.0" y="140.0"
+                 width="180.0" height="40.0" parentComponent="Panel5" items="{PROJECT_FOLDER}bass-3.wav&#10;{PROJECT_FOLDER}bass-8.wav&#10;{PROJECT_FOLDER}bass-9.wav&#10;{PROJECT_FOLDER}FX-3.wav&#10;{PROJECT_FOLDER}FX-8.wav&#10;{PROJECT_FOLDER}FX-9.wav&#10;{PROJECT_FOLDER}hat-1.wav&#10;{PROJECT_FOLDER}hat-2.wav&#10;{PROJECT_FOLDER}hat-6.wav&#10;{PROJECT_FOLDER}kick-1.wav&#10;{PROJECT_FOLDER}kick-6.wav&#10;{PROJECT_FOLDER}kick-9.wav&#10;{PROJECT_FOLDER}Perc-1.wav&#10;{PROJECT_FOLDER}Perc-10.wav&#10;{PROJECT_FOLDER}Perc-3.wav&#10;{PROJECT_FOLDER}Snare-12.wav&#10;{PROJECT_FOLDER}Snare-6.wav&#10;{PROJECT_FOLDER}Snare-8.wav"
+                 bgColour="4278190080" itemColour="4294967295" itemColour2="4294177779"
+                 textColour="4278190080" max="18"/>
+    </Component>
+  </Component>
+  <Component type="ScriptButton" id="RandomAll" x="39.0" y="3.0" width="40.0"
+             height="40.0" isMomentary="1" textColour="4278190080" bgColour="4294901760"
+             itemColour="4294901760" text=""/>
+  <Component type="ScriptLabel" id="RANDOM ALL" x="82.0" y="3.0" textColour="4278190080"
+             fontName="Source Code Pro" width="100.0" height="40.0" fontSize="15.0"
+             fontStyle="Bold" editable="0"/>
+  <Component type="ScriptLabel" id="RANDOM ALL20" x="423.0" y="2.0" textColour="4278190080"
+             fontName="Source Code Pro" width="260.0" height="40.0" fontSize="30.0"
+             text="RANDOM THINGS" fontStyle="Bold" editable="0"/>
+  <Component type="ScriptButton" id="RandomAll1" x="190.0" y="3.0" width="40.0"
+             height="40.0" textColour="4278190080" bgColour="4290838783" itemColour="4290838783"
+             text="" processorId="Audio Loop Player1" parameterId="Enabled"/>
+  <Component type="ScriptLabel" id="RANDOM ALL21" x="233.0" y="3.0" textColour="4278190080"
+             fontName="Source Code Pro" width="100.0" height="40.0" fontSize="15.0"
+             fontStyle="Bold" editable="0" text="Audio On/OFF"/>
+</ContentProperties>
